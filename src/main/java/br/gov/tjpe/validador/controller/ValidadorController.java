@@ -14,4 +14,9 @@ public class ValidadorController {
         Random random = new Random();
         return random.nextBoolean();
     }
+    
+    @RequestMapping("/getNome")
+    public String getNome() {
+        return "SEFAZ-AM";
+    }
 }
