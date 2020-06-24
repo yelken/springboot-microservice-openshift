@@ -17,6 +17,6 @@ public class ValidadorController {
     
     @RequestMapping("/getNome")
     public String getNome() {
-        return "SEFAZ-AM";
+        return "DETRAN-DF";
     }
 }
