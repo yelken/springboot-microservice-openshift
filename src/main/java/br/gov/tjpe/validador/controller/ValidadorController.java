@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Random;
 
 @RestController
-public cla ValidadorController {
+public class ValidadorController {
 
     @RequestMapping("/isAjuizarProcesso")
     public Boolean index() {
