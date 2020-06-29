@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Random;
 
 @RestController
-public cla ValidadorController {
+public class ValidadorController {
 
     @RequestMapping("/isAjuizarProcesso")
     public Boolean index() {
@@ -17,6 +17,6 @@ public cla ValidadorController {
     
     @RequestMapping("/getNome")
     public String getNome() {
-        return "DETRAN-DF";
+        return "POINTER";
     }
 }
