@@ -17,6 +17,6 @@ public class ValidadorController {
     
     @RequestMapping("/getNome")
     public String getNome() {
-        return "HUDSON";
+        return "Eventdriven";
     }
 }
