@@ -8,6 +8,7 @@ class ValidadorApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("TJRN");
     }
 
 }
